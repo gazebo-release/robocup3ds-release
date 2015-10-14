@@ -1,5 +1,5 @@
-gazebo6-robocup3ds (0.1.0-1~trusty) trusty; urgency=medium
+gazebo6-robocup3ds (0.0.0~beta1-1~trusty) trusty; urgency=medium
 
-  * gazebo6-robocup3ds 0.1.0-1 release
+  * gazebo6-robocup3ds 0.0.0~beta1-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 13 Oct 2015 23:24:33 +0200
