@@ -32,7 +32,7 @@ Depends: ${shlibs:Depends},
 Multi-Arch: foreign
 Description: Gazebo support for the RoboCup 3D simulation league - Development files
 
-Package: libgazebo6-robocup3ds-common
+Package: gazebo6-robocup3ds-common
 Architecture: all
 Section: libdevel
 Depends: ${misc:Depends}
