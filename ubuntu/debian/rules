@@ -16,8 +16,5 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 		-DCMAKE_BUILD_TYPE=RelWithDebInfo
  
-override_dh_auto_install:
-	dh_auto_install --destdir=debian/robocup3ds
-
 override_dh_auto_test:
 	true
