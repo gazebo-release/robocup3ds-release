@@ -1,3 +1,9 @@
+gazebo6-robocup3ds (0.0.0~beta1-5~vivid) vivid; urgency=medium
+
+  * gazebo6-robocup3ds 0.0.0~beta1-5 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 16 Oct 2015 01:09:23 +0200
+
 gazebo6-robocup3ds (0.0.0~beta1-4~vivid) vivid; urgency=medium
 
   * gazebo6-robocup3ds 0.0.0~beta1-4 release
