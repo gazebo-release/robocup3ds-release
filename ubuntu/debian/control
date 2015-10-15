@@ -17,9 +17,10 @@ Package: gazebo6-robocup3ds
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: gazebo6,
-         libgazebo6-robocup3ds-dev
+         libgazebo6-robocup3ds
 Multi-Arch: foreign
 Description: Gazebo support for the RoboCup 3D simulation league - Metapackage
+
 Package: libgazebo6-robocup3ds
 Architecture: any
 Section: libs
