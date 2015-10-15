@@ -13,32 +13,6 @@ Vcs-Browser: https://bitbucket.org/osrf/robocup3ds-release
 Vcs-Hg: https://bitbucket.org/osrf/robocup3ds-release
 Homepage: https://bitbucket.org/osrf/robocup3ds
 
-Package: libgazebo6-robocup3ds
-Architecture: any
-Section: libs
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends},
-         ${misc:Depends}
-Multi-Arch: same
-Description: Gazebo support for the RoboCup 3D simulation league - Shared library
-
-Package: libgazebo6-robocup3ds-dev
-Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends},
-         libgazebo6-dev,
-         libboost-dev,
-         libqt4-dev
-Multi-Arch: foreign
-Description: Gazebo support for the RoboCup 3D simulation league - Development files
-
-Package: gazebo6-robocup3ds-common
-Architecture: all
-Section: libdevel
-Depends: ${misc:Depends}
-Multi-Arch: foreign
-Description: Gazebo support for the RoboCup 3D simulation league - Materials and models
-
 Package: gazebo6-robocup3ds
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
@@ -46,3 +20,18 @@ Depends: gazebo6,
          libgazebo6-robocup3ds-dev
 Multi-Arch: foreign
 Description: Gazebo support for the RoboCup 3D simulation league - Metapackage
+Package: libgazebo6-robocup3ds
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Multi-Arch: same
+Description: Gazebo support for the RoboCup 3D simulation league - Gazebo plugins
+
+Package: gazebo6-robocup3ds-common
+Architecture: all
+Section: libdevel
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Gazebo support for the RoboCup 3D simulation league - Materials and models
