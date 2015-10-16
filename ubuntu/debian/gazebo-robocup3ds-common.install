@@ -1,1 +1,2 @@
-usr/share/gazebo-*/*
+usr/share/robocup3ds/models/*
+usr/share/robocup3ds/worlds/*
