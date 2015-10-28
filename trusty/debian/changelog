@@ -1,3 +1,9 @@
+gazebo6-robocup3ds (0.1.1-1~trusty) trusty; urgency=medium
+
+  * gazebo6-robocup3ds 0.1.1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 28 Oct 2015 18:34:01 +0100
+
 gazebo6-robocup3ds (0.1.0-1~trusty) trusty; urgency=medium
 
   * gazebo6-robocup3ds 0.1.0-1 release
