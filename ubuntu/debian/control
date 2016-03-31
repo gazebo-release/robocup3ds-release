@@ -1,4 +1,4 @@
-Source: gazebo6-robocup3ds
+Source: gazebo7-robocup3ds
 Standards-Version: 3.9.4
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -6,23 +6,23 @@ Priority: extra
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 7.0.50~),
-               libgazebo6-dev,
+               libgazebo7-dev,
                libboost-dev,
                libqt4-dev
 Vcs-Browser: https://bitbucket.org/osrf/robocup3ds-release
 Vcs-Hg: https://bitbucket.org/osrf/robocup3ds-release
 Homepage: https://bitbucket.org/osrf/robocup3ds
 
-Package: gazebo6-robocup3ds
+Package: gazebo7-robocup3ds
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: gazebo6,
-         libgazebo6-robocup3ds,
-         gazebo6-robocup3ds-common
+Depends: gazebo7,
+         libgazebo7-robocup3ds,
+         gazebo7-robocup3ds-common
 Multi-Arch: foreign
 Description: Gazebo support for the RoboCup 3D simulation league - Metapackage
 
-Package: libgazebo6-robocup3ds
+Package: libgazebo7-robocup3ds
 Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
@@ -31,7 +31,7 @@ Depends: ${shlibs:Depends},
 Multi-Arch: same
 Description: Gazebo support for the RoboCup 3D simulation league - Gazebo plugins
 
-Package: gazebo6-robocup3ds-common
+Package: gazebo7-robocup3ds-common
 Architecture: all
 Section: libdevel
 Depends: ${misc:Depends}
