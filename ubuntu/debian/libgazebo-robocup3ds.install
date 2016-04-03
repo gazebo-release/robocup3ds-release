@@ -1,2 +1,1 @@
-usr/lib/*/robocup3ds/*.so
-usr/lib/*/robocup3ds/*.so.*
+usr/lib/*/gazebo-*/*.so
